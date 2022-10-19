@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #292f33;
+}
+
+h2 {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 1140px;
+  height: 864px;
+  gap: 2rem;
+  margin: 12.2rem auto 12.2rem auto;
+}
+
+.img-1 {
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/25a638d95c29580299e84ab1/pexelsphoto864994.jpeg");
+  grid-column: 1;
+  grid-row: 1/span 3;
+  background-position: center;
+  background-size: cover;
+  max-height: 607px;
+}
+
+.img-2 {
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/67a4bec057cd503fba088013/pexelsphoto1451449.jpeg");
+  grid-column: 2;
+  grid-row: 1/3;
+}
+
+.img-3 {
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7343be24bf4352579e236d3f/pexelsphoto1024248.jpeg");
+  grid-column: 2;
+  grid-row: 3/5;
+}
+
+.img-4 {
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/877c954e6a9255f0be1dbcf1/pexelsphoto999267.jpeg");
+  grid-column: 2;
+  grid-row: 5/6;
+}
+
+.img-5 {
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/98dbf15a08875cb2bb53bbd2/pexelsphoto1043514.jpeg");
+  grid-column: 3;
+  grid-row: 4/6;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5 {
+  width: 100%;
+  max-height: 100%;
+  min-height: 268px;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: left;
+  font-weight: 400;
+}
+.info-card__heading {
+  margin-top: 2rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.info-card__text {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  margin: 2rem 0 3rem 0;
+  line-height: 1.6;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.info-card-1 {
+  background-color: #5ce0d8;
+  grid-column: 1;
+  grid-row: 4/6;
+}
+
+.info-card-2 {
+  background-color: #ffcf43;
+  grid-column: 3;
+  grid-row: 1/4;
+}
+
+/*# sourceMappingURL=style.css.map */
